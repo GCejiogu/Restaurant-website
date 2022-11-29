@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body {
+    background-color:#C43B09;
+    margin: 0px;
+    padding:0px;
+
+}
+
+
+
+.navbar {
+    margin: 30px 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+    
+
+.logo {
+    margin-left: 20px;
+    padding: 0px;
+}
+
+.logo-img {
+    border-radius: 50%;
+    height: 150px;
+    
+}
+
+.moto {
+    color: rgb(27, 218, 84);
+    padding: 0px;
+    margin: 0px;
+    font-style: oblique;
+    font-weight: 100;
+    
+}
+
+.nav-list {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    margin-top: 40px;
+    list-style: none;
+   
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 25px;
+    color:  rgb(13, 219, 75);
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;;
+}
+
+.nav-list a:hover {
+    color: rgb(233, 211, 223);
+    
+    
+}
+
+.H-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 30px;
+    line-height: 30px;
+    column-gap: 20px;
+    color: rgb(255, 177, 74);
+    font-size: 20px;
+}
+
+.H-card1 {
+    border-radius: 10px;
+    border: 1px solid #e04d18;
+    box-shadow: 15px 10px rgba(85, 43, 4, 0.39);
+    line-height: 40px;
+    padding: 10px 20px;
+}
+
+.H-card1-heading{
+    color: rgb(13, 219, 75);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.H-card2-heading{
+    color: rgb(13, 219, 75);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.H-card2 {
+    border-radius: 10px;
+    border: 1px solid #e04d18;
+    box-shadow: 15px 10px rgba(85, 43, 4, 0.39);
+    line-height: 40px;
+    padding: 10px 20px;
+}
+
+.H-card1:hover {
+    color:  rgb(233, 211, 223);
+    
+}
+
+.H-card2:hover {
+    color: rgb(233, 211, 223);
+}
+
+.quote {
+    border: 1px solid #e04d18;
+    border-radius: 10px;
+    line-height: 40px;
+    font-weight: 200px;
+    text-align: center;
+    box-shadow: 15px 10px rgba(85, 43, 4, 0.39);
+}
+
+.quote:hover {
+    color:  rgb(233, 211, 223);
+    
+}
+
+
+.H-container-img {
+    height: 300px;
+    border-radius: 50%;
+    padding-right: 50px 30px ;
+    
+
+}
+
+.contact {
+    text-align: center;
+    margin: 60px 40px;
+    font-size: 20px;
+    color: rgb(209, 224, 69);
+}
+
